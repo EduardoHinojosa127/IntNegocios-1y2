@@ -177,5 +177,5 @@ valores_primera_fila = df.iloc[0, :].values
 print("Valores de la primera fila:")
 print(valores_primera_fila)
 
-df_sin_columnas = pd.read_csv("Ventas.csv", header=None)
+df_sin_columnas = pd.read_excel("Ventas02.xlsx", header=None)
 print(df_sin_columnas)
